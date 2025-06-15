@@ -1,5 +1,6 @@
 export interface ApiConfig {
   baseUrl: string;
+  version?: string;
   timeout: number;
 }
 
